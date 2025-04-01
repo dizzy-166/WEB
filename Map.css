@@ -1,0 +1,23 @@
+body {
+    background-image: url(фон.gif);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial; color: gray; text-align: center; font-size: 48px;
+}
+h2 {
+    font-family: Arial; color: rgb(98, 54, 54); text-align: center; font-size: 30px;
+}
+a{
+    font-family: Arial; color: gray; text-align: center; font-size: 48px;
+}
+P {
+    font-family: Monotype corsiva; font-size: 18px;text-align: justify; color:maroon;
+}

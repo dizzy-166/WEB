@@ -1,0 +1,35 @@
+P {
+    font-family: Monotype corsiva; font-size: 24px;text-align: justify; color:maroon;
+}
+body{
+    background-image: url(фон.gif);
+}
+
+a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: rgb(63, 140, 152);
+}
+a:active{
+    color: rgb(222, 82, 82);
+}
+
+nav{
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+
+h1{
+    text-align: center;
+    color: gray;
+}
