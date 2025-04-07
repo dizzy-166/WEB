@@ -2,10 +2,67 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Заказать тур</title>
+    <title>Оформление тура</title>
     <link rel="stylesheet" href="Заказать тур.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <h1>Путешествие по долинам реки Лаура</h1>
+            <p><a href="Главная страница.html">Предыдущая страница</a></p>
+        </div>
+        
+        <div class="content">
+            <h2 style="text-align: center;">Оформление тура</h2>
+            <form action="подтверждение_заказа.html" method="post">
+                <label for="name">ФИО:</label>
+                <input type="text" id="name" name="name">
+                
+                <label for="phone">Номер телефона:</label>
+                <input type="tel" id="phone" name="phone">
+                
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" name="email">
+                
+                <label for="tour">Выберите тур:</label>
+                <select id="tour" name="tour">
+                    <option value="tour1">Анже, Ланже, Лош</option>
+                    <option value="tour2">Монсоро, Монтрей, Сомюр</option>
+                    <option value="tour3">Ланже, Лош, Монсоро</option>
+                    <option value="tour4">Анже, Монтрей, Сомюр</option>
+                </select>
+                
+                <label>Пол:</label>
+                <div class="gender-container">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Мужской</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Женский</label>
+                </div>
+                
+                <label for="participants">Количество участников:</label>
+                <input type="number" id="participants" name="participants" min="1">
+                
+                <div class="buttons">
+                    <button type="reset" class="form-button">Очистить</button>
+                    <a href="Подтверждение тура.html" class="form-button">Оформить тур</a>
+                    <a href="Главная страница.html" class="form-button cancel-button">Отмена</a>
+                </div>                            
+            </form>
+        </div>
+        
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <h4>Адрес</h4>
+                    <p>г. Париж</p>
+                </div>
+                <div>
+                    <h4>Контакты</h4>
+                    <p>Телефон: +7 777 777 777</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

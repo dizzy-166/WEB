@@ -1,16 +1,93 @@
 <!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Заказать тур</title>
-    <link rel="stylesheet" href="Туры.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Варианты туров</title>
+    <link rel="stylesheet" href="Главная страница.css">
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .tour-card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .tour-card h2 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .tour-card p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .tour-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+        }
+        .tour-button:hover {
+            color: rgb(63, 140, 152);
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 16px;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <div class ="container">
-        <p>Информация о туре</p>
+
+    <div class="container">
+        <h1>Выберите ваш тур</h1>
+
+        <!-- Тур 1 -->
+        <div class="tour-card">
+            <h2>Анже, Ланже, Лош</h2>
+            <p>Этот тур включает посещение трех известных французских замков: Анже, Ланже и Лош. Вас ждут живописные виды, богатая история и уникальная архитектура.</p>
+            <a href="Заказать тур.html" class="tour-button">Оформить тур</a>
+        </div>
+
+        <!-- Тур 2 -->
+        <div class="tour-card">
+            <h2>Монсоро, Монтрей, Сомюр</h2>
+            <p>В этом туре вы посетите замки Монсоро, Монтрей и Сомюр. Эти величественные сооружения позволят вам погрузиться в атмосферу средневековой Франции.</p>
+            <a href="Заказать тур.html" class="tour-button">Оформить тур</a>
+        </div>
+
+        <!-- Тур 3 -->
+        <div class="tour-card">
+            <h2>Ланже, Лош, Монсоро</h2>
+            <p>Этот тур сочетает посещение замков Ланже, Лош, Монсоро. Каждое из этих мест имеет свою уникальную атмосферу и историю, которые оставят незабываемые впечатления.</p>
+            <a href="Заказать тур.html" class="tour-button">Оформить тур</a>
+        </div>
+
+        <!-- Тур 4 -->
+        <div class="tour-card">
+            <h2>Анже, Монтрей, Сомюр</h2>
+            <p>Погрузитесь в историю Франции! Наслаждайтесь прекрасными видами и насыщенной историей Анже, Монтрей, Сомюр.</p>
+            <a href="Заказать тур.html" class="tour-button">Оформить тур</a>
+        </div>
+
     </div>
-    <form>
-        <input placeholder="ФИО">
-        <input placeholder="Номер телефона">
-        <input placeholder="Электронная почта">
-    </form>
+
 </body>
+</html>
